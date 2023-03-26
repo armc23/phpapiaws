@@ -3,7 +3,7 @@
 $USERNAME = $_ENV['DB_USERNAME'];
 $DB_PASSWORD = $_ENV['DB_PASSWORD'];
 $DB_DATABASE_NAME = $_ENV['DB_DATABASE_NAME'];
-$DB_HOST='mysql-custom';
+$DB_HOST = $_ENV['DB_HOST'];
 
 define('DB_HOST', $DB_HOST);
 define('DB_USERNAME', $USERNAME );
